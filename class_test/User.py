@@ -1,4 +1,4 @@
-class User:
+class User():
     def __init__(self,ten,age,data = {}) -> None:
         super().__init__()
         self._ten = ten
